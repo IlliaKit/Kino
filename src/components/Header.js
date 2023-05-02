@@ -10,8 +10,8 @@ export default function Header() {
           <img className="logoimg" src="./img/logo.png" alt="" />
         </span>
         <ul className="nav">
-          <li>join/sign</li>
-          <li>
+          <li>join / sign</li>
+          <li className="joinSign">
             <SlPeople />
           </li>
         </ul>
