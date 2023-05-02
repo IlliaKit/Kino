@@ -6,7 +6,12 @@ class App extends React.Component {
     return (
       <div className="wrapper">
         <Header />
-        <div></div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eum
+          magni, explicabo quam consectetur laborum commodi, reprehenderit harum
+          assumenda maiores perspiciatis deleniti nostrum! Incidunt odio illo
+          deserunt autem veritatis atque.
+        </div>
       </div>
     );
   }
