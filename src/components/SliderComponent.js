@@ -8,7 +8,7 @@ export default class MultipleItems extends Component {
     const settings = {
       className: "center",
       infinite: true,
-      speed: 500,
+      speed: 700,
       slidesToShow: 4,
       slidesToScroll: 2,
     };

@@ -1,5 +1,12 @@
 import Guardians_of_the_Galaxy_Vol_3_poster from "./../img/Guardians_of_the_Galaxy_Vol_3_poster.jpg";
 import the_little_mermaid from "./../img/the_little_mermaid.jpg";
+import The_Portable_Door from "./../img/The_Portable_Door.jpg";
+import Mummies from "./../img/Mummies.jpg";
+import Beau_Is_Afraid from "./../img/Beau_Is_Afraid.jpg";
+import Fast_Furious_10 from "./../img/Fast_Furious_10.jpg";
+import Mafia_Mamma from "./../img/Mafia_Mamma.jpg";
+import Apaches from "./../img/Apaches.jpg";
+
 const filmsList = [
   {
     id: 1,
@@ -17,38 +24,38 @@ const filmsList = [
   },
   {
     id: 3,
-    url: Guardians_of_the_Galaxy_Vol_3_poster,
-    title: "Image 3",
+    url: The_Portable_Door,
+    title: "The Portable Door",
     description: "Description for Image 3",
   },
   {
-    id: 3,
-    url: Guardians_of_the_Galaxy_Vol_3_poster,
-    title: "Image 4",
+    id: 4,
+    url: Mummies,
+    title: "Mummies",
     description: "Description for Image 3",
   },
   {
-    id: 3,
-    url: "https://via.placeholder.com/300x200/0000FF/FFFFFF",
-    title: "Image 5",
+    id: 5,
+    url: Beau_Is_Afraid,
+    title: "Beau Is Afraid",
     description: "Description for Image 3",
   },
   {
-    id: 3,
-    url: "https://via.placeholder.com/300x200/0000FF/FFFFFF",
-    title: "Image 6",
+    id: 6,
+    url: Fast_Furious_10,
+    title: "Fast Furious X",
     description: "Description for Image 3",
   },
   {
-    id: 3,
-    url: "https://via.placeholder.com/300x200/0000FF/FFFFFF",
-    title: "Image 7",
+    id: 7,
+    url: Mafia_Mamma,
+    title: "Mafia Mamma",
     description: "Description for Image 3",
   },
   {
-    id: 3,
-    url: "https://via.placeholder.com/300x200/0000FF/FFFFFF",
-    title: "Image 8",
+    id: 8,
+    url: Apaches,
+    title: "Apaches",
     description: "Description for Image 3",
   },
 ];
