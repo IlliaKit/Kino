@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-
+import { IoAlertOutline } from "react-icons/io5";
+import { CiPlay1 } from "react-icons/ci";
 import { filmsList } from "../helpers/filmsList";
 
 export default class MultipleItems extends Component {
@@ -12,6 +13,7 @@ export default class MultipleItems extends Component {
       slidesToShow: 4,
       slidesToScroll: 2,
     };
+
     return (
       <div>
         <Slider {...settings}>
@@ -19,7 +21,22 @@ export default class MultipleItems extends Component {
             <div class="container">
               <img src={filmsList.url} alt="" />
               <div>
-                <p className="slideText">{filmsList.title}</p>
+                <p className="slideHeader">
+                  <table>
+                    <tr>
+                      <td className="tableIcon">
+                        <IoAlertOutline className="iconInTable" />
+                      </td>
+                      <td className="tableText"> More information</td>
+                      <td className="tableIcon">
+                        <a href={filmsList.trailer} target="blank">
+                          <CiPlay1 className="iconInTable" />
+                        </a>
+                      </td>
+                      <td className="tableText"> Watch the trailer</td>
+                    </tr>
+                  </table>
+                </p>
                 <p className="seansText">Session Schedule</p>
 
                 <p className="seansTime">
@@ -27,6 +44,8 @@ export default class MultipleItems extends Component {
                     ? ` ${filmsList.time}`
                     : `Sorry, sessions no more`}
                 </p>
+
+                <p className="slideText">{filmsList.title}</p>
               </div>
             </div>
           ))}

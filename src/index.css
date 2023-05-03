@@ -9,7 +9,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 30px;
-  background: #222;
+  background: #181818;
   color: #fff;
 }
 
@@ -64,7 +64,7 @@ body {
   color: rgb(207, 193, 193);
   text-align: center;
 }
-
+/*-----------Slide Blur on cursor------*/
 .container {
   display: inline-block;
   position: relative;
@@ -76,7 +76,7 @@ body {
   width: 100%;
   bottom: 0;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.532);
+  background-color: rgba(83, 83, 83, 0.532);
   backdrop-filter: blur(8px);
   padding-top: 40px;
   color: white;
@@ -84,14 +84,15 @@ body {
 .container:hover div {
   display: block;
 }
-
+/*-----------------*/
 .slideText {
-  padding-top: 30px;
+  margin-top: 80%;
+
   font-weight: 400;
 }
 
 .seansText {
-  padding-top: 20px;
+  font-weight: 400;
   font-size: 20px;
 }
 .slideText:hover {
@@ -103,5 +104,34 @@ body {
   padding-top: 20px;
   color: red;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 550;
+}
+
+/*-----------------------TABLE--*/
+table {
+  padding: 20px;
+}
+
+.iconInTable {
+  padding: 5px;
+  border: 0px solid #222;
+  background-color: #222;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.iconInTable:hover {
+  background-color: red;
+}
+
+.tableText {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: white;
 }
