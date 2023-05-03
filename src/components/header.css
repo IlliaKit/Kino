@@ -169,10 +169,6 @@ ul.nav li {
   border-radius: 30%;
 }
 
-.networksImg:hover {
-  border: 2px solid red;
-}
-
 .socNetworksLi:hover {
   font-weight: 600;
 }
