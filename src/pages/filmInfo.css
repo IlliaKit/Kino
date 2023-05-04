@@ -1,0 +1,29 @@
+.filmInfo {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.filmImg {
+  position: fixed;
+  left: 50px;
+  top: 100px;
+  width: 400px;
+  box-shadow: 0px 0px 10px white;
+}
+
+.filmTable {
+  margin-left: 30%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.filmTable td {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.filmDescription {
+  margin-left: 30%;
+  font-size: 20px;
+}

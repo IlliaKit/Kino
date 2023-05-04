@@ -11,10 +11,17 @@ const filmsList = [
   {
     id: 1,
     url: Guardians_of_the_Galaxy_Vol_3_poster,
-    description: "Description for Image 1",
+    description:
+      "In Marvel Studios' Guardians of the Galaxy 3, our favorite underdog heroes adjust to life on the Nydenia space station. However, their lives are soon turned upside down by the echoes of Rocket's turbulent past. Peter Quill, still reeling from the loss of Gamora, must reunite the team to protect the universe and one of their own. If this mission fails, it could be the end of the Guardians as we know them.",
     title: "Guardians of the Galaxy",
     time: [" Mn-19:00", " We-20:00"],
     trailer: "https://www.youtube.com/watch?v=u3V5KDHRQvk",
+    year: "2023",
+    director: ' James Gunn ("Guardians of the Galaxy" trilogy)',
+    genre: "Fantasy, Adventure, Fantasy",
+    child: "16+",
+    starring:
+      "Chris Pratt, Zoe Saldana, Bradley Cooper, Dave Bautista, Karen Gillan, Pom Klementieff, Will Poulter, Seann Gunn and others",
   },
   {
     id: 2,

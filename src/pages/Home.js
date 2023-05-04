@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
 import { IoAlertOutline } from "react-icons/io5";
 import { CiPlay1 } from "react-icons/ci";
-// import { filmsList } from "../helpers/filmsList";
 
 export default class MultipleItems extends Component {
   render() {
@@ -25,7 +25,9 @@ export default class MultipleItems extends Component {
                   <table>
                     <tr>
                       <td className="tableIcon">
-                        <IoAlertOutline className="iconInTable" />
+                        <NavLink to={`/filmInfo/${filmsList.id - 1}`}>
+                          <IoAlertOutline className="iconInTable" />
+                        </NavLink>
                       </td>
                       <td className="tableText"> More information</td>
                       <td className="tableIcon">
