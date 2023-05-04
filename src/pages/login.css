@@ -1,0 +1,101 @@
+.loginPage {
+  background: white;
+  color: black;
+  height: 650px;
+}
+.loginWidth {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+.loginImg {
+  height: 250px;
+  margin-top: -60px;
+  /* border: 2px solid black;
+  border-radius: 20%; */
+}
+.imgCenter {
+  text-align: center;
+}
+.loginPage h2 {
+  font-size: 30px;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.loginPersonalInf {
+  padding-top: 20px;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.loginInput {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.loginInput::placeholder {
+  opacity: 0.3;
+}
+
+.loginButton {
+  font-size: 20px;
+  background-color: rgb(239, 139, 139);
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: red;
+}
+
+.loginInput:hover {
+  border: 2px solid red;
+}
+
+.loginWith p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 3px solid rgba(128, 128, 128, 0.247);
+}
+
+.loginGoogleButton {
+  color: white;
+
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid #fe0000;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.loginGoogleButton:hover {
+  background-color: rgb(188, 31, 31);
+  border: 2px solid rgb(188, 31, 31);
+}
+
+.loginReturn {
+  color: black;
+  margin-top: 30%;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.loginReturn:hover {
+  color: red;
+}

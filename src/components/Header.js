@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu";
 import "./header.css";
 import { SlPeople } from "react-icons/sl";
@@ -9,14 +10,18 @@ export default function Header() {
       <div>
         <span className="logo">
           <BurgerMenu />
-          <img className="logoimg" src="./img/logo.png" alt="" />
+          <NavLink to="/">
+            <img className="logoimg" src="./img/logo.png" alt="" />
+          </NavLink>
         </span>
-        <ul className="nav">
-          <li>Join / Sign</li>
-          <li className="joinSign">
-            <SlPeople />
-          </li>
-        </ul>
+        <NavLink to="/login">
+          <ul className="nav">
+            <li>Join / Sign</li>
+            <li className="joinSign">
+              <SlPeople />
+            </li>
+          </ul>
+        </NavLink>
       </div>
     </header>
   );

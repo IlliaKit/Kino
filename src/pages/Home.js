@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { IoAlertOutline } from "react-icons/io5";
 import { CiPlay1 } from "react-icons/ci";
-import { filmsList } from "../helpers/filmsList";
+// import { filmsList } from "../helpers/filmsList";
 
 export default class MultipleItems extends Component {
   render() {
@@ -17,7 +17,7 @@ export default class MultipleItems extends Component {
     return (
       <div>
         <Slider {...settings}>
-          {filmsList.map((filmsList) => (
+          {this.props.filmsList.map((filmsList) => (
             <div class="container">
               <img src={filmsList.url} alt="" />
               <div>
@@ -29,7 +29,11 @@ export default class MultipleItems extends Component {
                       </td>
                       <td className="tableText"> More information</td>
                       <td className="tableIcon">
-                        <a href={filmsList.trailer} target="blank">
+                        <a
+                          href={filmsList.trailer}
+                          target="blank"
+                          className="trailerLink"
+                        >
                           <CiPlay1 className="iconInTable" />
                         </a>
                       </td>
