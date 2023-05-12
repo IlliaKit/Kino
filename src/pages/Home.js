@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
 import { IoAlertOutline } from "react-icons/io5";
 import { CiPlay1 } from "react-icons/ci";
+import HeroSlide from "../components/heroSlide/HeroSlide";
 
 export default class MultipleItems extends Component {
   render() {
@@ -10,12 +11,17 @@ export default class MultipleItems extends Component {
       className: "center",
       infinite: true,
       speed: 700,
+
       slidesToShow: 4,
       slidesToScroll: 2,
+      swipeToSlide: true,
+      rows: 2,
+      slidesPerRow: 1,
     };
 
     return (
       <div>
+        <HeroSlide filmsList={this.props.filmsList} />
         <Slider {...settings}>
           {this.props.filmsList.map((filmsList) => (
             <div class="container">

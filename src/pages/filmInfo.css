@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.filmTitle {
+  font-weight: 600;
+}
+
 .filmImg {
   position: fixed;
   left: 50px;

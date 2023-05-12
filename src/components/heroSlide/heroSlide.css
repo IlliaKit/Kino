@@ -1,0 +1,108 @@
+.hero {
+  margin-top: 100px;
+  height: 600px;
+  padding-bottom: 15%;
+}
+.hero-slideHeader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-slick-list {
+  color: rgb(207, 193, 193);
+  text-align: center;
+}
+/*-----------Slide Blur on cursor------*/
+.slick-next {
+  right: 0;
+  opacity: 0;
+  height: 100%;
+  width: 50px;
+}
+.slick-prev {
+  opacity: 0;
+  padding-left: 40px;
+  z-index: 10;
+  height: 100%;
+  width: 50px;
+}
+.hero-container {
+  display: inline-block;
+  position: relative;
+}
+.hero-container div {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(66, 66, 66, 0.532);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+/*-----------------*/
+.hero-slideText {
+  font-weight: 400;
+}
+
+.hero table td {
+  vertical-align: text-top;
+  width: 400px;
+}
+.hero-seansText {
+  font-weight: 400;
+  font-size: 20px;
+}
+.hero-slideText:hover {
+  cursor: pointer;
+  color: red;
+}
+.hero-trailerLink {
+  padding-left: 20px;
+}
+.hero-seansTime {
+  color: red;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.hero-iconInTable {
+  padding: 5px;
+  border: 0px solid #222;
+  background-color: #222;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.hero-iconInTable:hover {
+  background-color: red;
+}
+
+.hero-tableText {
+  vertical-align: text-top;
+  padding-left: 10px;
+
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-image {
+  border-radius: 10px;
+  border: 5px solid #fff;
+  box-shadow: 2px 1px 5px #999999;
+}
+.hero-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.hero-mini_description {
+  font-size: 16px;
+  font-weight: 600;
+}
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,11 +1,19 @@
 .logoimg {
   margin-left: 20px;
-  width: 80px;
+  width: 5%;
   cursor: pointer;
 
   border: 2px solid #222;
   border-radius: 10%;
   background: #ffffff;
+}
+
+header {
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 95%;
 }
 
 ul.nav {
