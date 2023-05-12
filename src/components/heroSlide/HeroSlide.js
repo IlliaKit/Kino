@@ -17,6 +17,8 @@ export default function HeroSlide({ filmsList }) {
     autoplaySpeed: 5000,
     swipeToSlide: true,
     adaptiveHeight: true,
+    animateIn: "animateIn",
+    animateOut: "animateOut",
   };
 
   return (

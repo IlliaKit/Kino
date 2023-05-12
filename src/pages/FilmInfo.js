@@ -1,9 +1,13 @@
 import { useParams } from "react-router-dom";
 import { filmsList } from "../helpers/filmsList";
+
+import React from "react";
+
 import "./filmInfo.css";
 const FilmInfo = () => {
   const { id } = useParams();
   const film = filmsList[id];
+
   return (
     <div className="filmInfo">
       <img className="filmImg" src={film.url} alt="" />
